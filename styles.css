@@ -1,0 +1,184 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    color: #F9FAF8 ;
+    background-color: #3882F6;
+    font-weight: bold;
+    padding: 12px 32px;
+    border: 0px;
+    border-radius: 6px;
+}
+
+/*|=================| Header Section |*/
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding-bottom: 48px;
+}
+
+.navbar {
+    padding: 16px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar h1 {
+    font-size: 24px;
+}
+
+.navbar ul {
+    font-size: 18px;
+    display: flex;
+    list-style-type: none;
+    column-gap: 24px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.hero {
+    padding: 32px 64px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: center;
+    column-gap: 84px;
+    row-gap: 32px;
+}
+
+.hero-text {
+    width: 640px;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero button {
+    margin-top: 16px;
+}
+
+.hero img {
+    width: 400px;
+}
+
+/*|================| Content Section |*/
+
+.content {
+    margin-bottom: 32px;
+}
+
+.content h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+}
+
+.boxholder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 96px;
+}
+
+.box {
+    width: 160px;
+    text-align: center;
+    color: dimgray;
+}
+
+.box p {
+    margin: 6px;
+}
+
+.box img {
+    box-sizing: border-box;
+    height: 160px;
+    width: 160px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+}
+
+/*|==================| Quote Section |*/
+
+.quotation {
+    background-color: #E5E7EB;
+    padding: 32px 64px;
+}
+
+.quoteholder, .quotee {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0px;
+}
+
+.quoteholder p, .quotee h3 {
+    color: #1F2937;
+    width: 1128px;
+    margin: 0px;
+}
+
+.quoteholder p {
+    font-weight: 200;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.quotee h3 {
+    font-weight: bold;
+    text-align: right;
+}
+
+/*|=========| Call to Action Section |*/
+
+.signup {
+    margin: 48px 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.callbox {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    width: 1024px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 16px 64px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 128px;
+}
+
+.calltext {
+    padding: 16px;
+}
+
+.calltext h3, .calltext p {
+    margin: 0;
+}
+
+.callbox button {
+    border: 3px solid #E5E7EB;
+    border-radius: 12px;
+    flex: 0 0 auto;
+}
+
+/*|=================| Footer Section |*/
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 16px 48px;
+    display: flex;
+    justify-content: center;
+}
